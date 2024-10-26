@@ -92,6 +92,31 @@ int nombre;
           erreur = 1;
         }
       break;
+      case '8':
+        if (interfaceMalyan_donneLaPosition() < 0)
+        {
+           printf("Erreur : Impossible d'obtenir la position\n");
+        }
+        break;
+      case 'P':
+        if (interfaceMalyan_vaALaPosition(20, 20, 20) < 0) 
+        {
+          printf("Erreur : Impossible d'aller à la position x=20, y=20, z=20\n");
+        }
+        break;
+      case 'H':
+        if (interfaceMalyan_retourneALaMaison() < 0)
+        {
+          printf("Erreur : Impossible de retourner à la maison\n");
+        }
+        break;
+      case 'S':
+	if (interfaceMalyan_deplacementEnS() < 0)
+	{
+	  printf("Erreur : Impossible d'effectuer le test de deplacement en S");
+	}
+        break;
+
       default:
         if (interfaceMalyan_genereUneErreur() < 0)
         {
