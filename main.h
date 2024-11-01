@@ -24,7 +24,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <unistd.h>
 //DEFINITIONS REQUISES PAR LE PROGRAMME:
 
 //Dependances materielles:

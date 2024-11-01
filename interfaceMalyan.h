@@ -35,6 +35,8 @@ int interfaceMalyan_arreteLaPompeDuUARM(void);
 int interfaceMalyan_donneLaPosition(void);
 int interfaceMalyan_vaALaPosition(int x,int y,int z);
 int interfaceMalyan_retourneALaMaison(void);
+int interfaceMalyan_deplacementEnS(void);
+
 //Variables publiques:
 //pas de variables publiques
 
